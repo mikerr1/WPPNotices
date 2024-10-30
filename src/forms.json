@@ -1,0 +1,169 @@
+{
+    "props": {
+        "pageProps": {
+            "subscriptionControls": {
+                "cancelSubscriptionId": "",
+                "subscriptionsData": {
+                    "subscriptionType": "free",
+                    "productId": "prod_IZjKCUKHLAMbbc",
+                    "subscriptionPlans": [
+                        {
+                            "period": "30 days",
+                            "price": 50
+                        },
+                        {
+                            "period": "60 days",
+                            "price": 60
+                        },
+                        {
+                            "period": "90 days",
+                            "price": 70
+                        },
+                        {
+                            "period": "180 days",
+                            "price": 75
+                        },
+                        {
+                            "period": "365 days",
+                            "price": 150
+                        }
+                    ]
+                },
+                "subscriptionId": "",
+                "subscription": null
+            },
+            "searchControls": {
+                "excludeKeywords": [],
+                "initialActiveNotice": null,
+                "initialFilters": {
+                    "startTimestamp": 1727699812686,
+                    "endTimestamp": 1730291812686,
+                    "query": "",
+                    "state": [],
+                    "county": [],
+                    "newspaperName": [
+                        "The Washington Post"
+                    ],
+                    "noticeType": []
+                },
+                "searchConfig": {
+                    "elastic": {
+                        "elasticBackend": "https://us-central1-enotice-demo-8d99a.cloudfunctions.net/api/",
+                        "isDemo": true
+                    }
+                },
+                "baseUrl": "https://us-central1-enotice-demo-8d99a.cloudfunctions.net/api/",
+                "facets": {
+                    "noticeTypeFacets": [
+                        "Trustee Sale",
+                        "Legal Notices",
+                        "Official Notices",
+                        "Bids & Proposals",
+                        "Spotsylvania County",
+                        "Special Notices",
+                        "Orange County",
+                        "City of Alexandria",
+                        "Frederick County",
+                        "Public Sale Notices",
+                        "City of Fredericksburg",
+                        "City of Charlottesville",
+                        "Rappahannock County",
+                        "Notice of Hearing"
+                    ],
+                    "newspaperFacets": [
+                        "The Washington Post"
+                    ],
+                    "countyFacets": [
+                        "Prince George's",
+                        "Washington",
+                        "Montgomery",
+                        "Anne Arundel",
+                        "Charles",
+                        "Frederick",
+                        "Prince William",
+                        "Calvert",
+                        "Fairfax",
+                        "Howard",
+                        "Spotsylvania",
+                        "Richmond",
+                        "Stafford",
+                        "Loudoun",
+                        "Orange",
+                        "Arlington",
+                        "Fauquier",
+                        "Culpeper",
+                        "City of Alexandria",
+                        "City of Fredericksburg",
+                        "City of Charlottesville",
+                        "Rappahannock",
+                        "Clarke",
+                        "Carroll",
+                        "Other Counties",
+                        "District of Columbia"
+                    ],
+                    "stateFacets": [
+                        "Maryland",
+                        "DC",
+                        "Virginia",
+                        "District of Columbia"
+                    ]
+                },
+                "host": "publicnotices.washingtonpost.com",
+                "url": "/"
+            },
+            "uiControls": {
+                "showUpdateSubscription": false,
+                "subscriptionSubheader": null,
+                "hideAlerts": true,
+                "organizationId": "LpaJaaQkybHEwc2cL9Qj",
+                "extraSidebarHtml": null,
+                "showPublication": false,
+                "extraFooterHTML": null,
+                "placeNoticeLink": null,
+                "openAlertModal": false,
+                "showCounty": false,
+                "mapCenter": [
+                    -77.045667,
+                    38.923416
+                ],
+                "showState": true,
+                "darkLogo": "https://firebasestorage.googleapis.com/v0/b/enotice-demo-8d99a.appspot.com/o/oneoff%2FThe_Washington_Post_logo_newspaper.png?alt=media&token=b3cdc39f-6429-4f90-9a8e-25f4d2f12a4e",
+                "header": {
+                    "link": "https://www.notion.so/enotice/Frequently-Asked-Questions-3123f2b87bfd4b509d9b96ca82840e4c",
+                    "button": "Frequently Asked Questions",
+                    "label": "If you have questions please contact legalnotices@washpost.com"
+                },
+                "showMap": true,
+                "orgName": "The Washington Post",
+                "origin": "https://publicnotices.washingtonpost.com",
+                "baseUrl": "https://us-central1-enotice-demo-8d99a.cloudfunctions.net/api/",
+                "title": "Public Notices | The Washington Post",
+                "isEedition": false
+            },
+            "config": {
+                "stripe": {
+                    "key": "pk_test_lHCdsg49uFGcdXruY4mpo0Y6008ZDcTc2P"
+                },
+                "firebase": {
+                    "apiKey": "AIzaSyBZjzVWVMptcmXLCW1WWvypB7bqejr6i2s",
+                    "authDomain": "enotice-demo-8d99a.firebaseapp.com",
+                    "databaseURL": "https://enotice-demo-8d99a.firebaseio.com",
+                    "projectId": "enotice-demo-8d99a",
+                    "storageBucket": "enotice-demo-8d99a.appspot.com",
+                    "messagingSenderId": "981763803674",
+                    "appId": "1:981763803674:web:afa37bfffac67fea",
+                    "measurementId": "G-FKYRQ5TJZM"
+                },
+                "analytics": {
+                    "ga": null
+                }
+            }
+        },
+        "__N_SSP": true
+    },
+    "page": "/",
+    "query": {},
+    "buildId": "6QRz-4JpiN-guBg6fD_Qv",
+    "isFallback": false,
+    "gssp": true
+}
